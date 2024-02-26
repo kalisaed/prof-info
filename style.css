@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.918);
+}
+
+.container {
+    width: 450px;
+    height: 700px;
+    background-color: #212121c7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: url(Picsart_23-06-23_19-27-47-240\ \(1\).jpg);
+    background-size: contain;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 90%;
+    height: 100vh;
+}
+h3{
+    color: aqua;
+    margin: 3px;
+}
+
+form a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: white;
+    transition: 1.2s;
+    background-color: #a00db6b3;
+    padding: 20px;
+    border-radius: 10px;
+    flex-grow: 1;
+    margin: 5px;
+    transition: 1s;
+    cursor: pointer;
+    text-align: center;
+    font-size: larger;
+}
+
+form a:hover{
+    font-size: 28px;
+    color: aqua;
+    background-color: transparent;
+}
