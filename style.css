@@ -79,6 +79,6 @@ form a:hover{
 }
 @media (max-width:600px){
     form a{
-        width: 320px;
+        width: 300px;
     }
 }
