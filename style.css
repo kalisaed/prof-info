@@ -68,6 +68,8 @@ form a{
     cursor: pointer;
     text-align: center;
     font-size: larger;
+    width: 350px;
+    height: 28.5px;
 }
 
 form a:hover{
