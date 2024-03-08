@@ -85,4 +85,17 @@ form a:hover{
         width: 400px;
         height: 650px;
     }
+    form a {
+        font-weight: 500;
+        padding: 18px;
+        border-radius: 10px;
+        flex-grow: 0;
+        margin: 5px;
+        transition: 1s;
+        cursor: pointer;
+        text-align: center;
+        font-size: larger;
+        width: 320px;
+        height: 28.5px;
+    }
 }
