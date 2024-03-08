@@ -81,4 +81,8 @@ form a:hover{
     form a{
         width: 320px;
     }
+    .container {
+        width: 400px;
+        height: 650px;
+    }
 }
